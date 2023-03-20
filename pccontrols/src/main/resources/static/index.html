@@ -2,9 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Fireworks</title>
+    <script type="text/javascript" src="/webjars/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars//stomp-websocket/2.3.4/stomp.js"></script>
+    <script type="text/javascript" src="/webjars/sockjs-client/1.5.1/sockjs.js"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
 </head>
 <body>
-
+    <aside id="warning">
+        <h1>Connection lost!</h1>
+        <p>Please refresh page! If this won't help, check labviewer server.</p>
+    </aside>
+    <div class="container">
+        <div id="content"></div>
+    </div>
+    <div>
+        Разработано Александром Щербаковым
+    </div>
 </body>
 </html>
